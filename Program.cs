@@ -52,12 +52,21 @@ namespace If_Homework_
           //  Console.WriteLine(integerNumber);
     
           //If 4.
-//?          //
-          // int number1 = Convert.ToInt32(Console.ReadLine());
-          // int number2 = Convert.ToInt32(Console.ReadLine());
-          // int number3 = Convert.ToInt32(Console.ReadLine());
-          //
-          //
+            
+          // int[] nums = new int[3];
+          // int otr = 0,zer=0;
+          // Console.Write("A : ");
+          // nums[0] = Int32.Parse(Console.ReadLine());
+          // Console.Write("B : ");
+          // nums[1] = Int32.Parse(Console.ReadLine());
+          // Console.Write("C : ");
+          // nums[2] = Int32.Parse(Console.ReadLine());
+          // for (int i = 0; i < 3; i++)
+          //     if (nums[i] < 0) otr++;
+          //     else if (nums[i] == 0)zer++ ;
+          // Console.WriteLine("кол-во положительных : " + (3 - otr - zer));
+          // Console.WriteLine("кол-во отрицательных : " + (otr));
+          // Console.WriteLine("кол-во нулей : " + zer);
           //
            
           //If 6
